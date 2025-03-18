@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_management/splash_screen.dart';
+import 'package:task_management/pages/onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const SplashScreen(), // Ensure SplashScreen is properly defined
+      home: OnboardingScreen(),
     );
   }
 }
